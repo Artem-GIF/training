@@ -47,20 +47,20 @@ body {
 }
 
 .page_contact_one:hover ~ hr {
-    width: 36%;
+    width: 75px;
     margin-left: 0;
 }
   
 .page_about_two:hover ~ hr {
-    margin-left: 52%;
-    width: 43%;
+    margin-left: 110px;
+    width: 93px;
 }
   
 .page_about {
     height: .25rem;
     margin-left: 0;
     margin-top: 0;
-    width: 36%;
+    width: 75px;
     background: #FFFFFF;
     border: none;
     transition: .3s ease-in-out;
@@ -69,9 +69,9 @@ body {
 
 .page_contact {
     height: .25rem;
-    margin-left: 52%;
+    margin-left: 110px;
     margin-top: 0;
-    width: 43%;
+    width: 93px;
     background: #FFFFFF;
     border: none;
     transition: .3s ease-in-out;
@@ -93,7 +93,7 @@ body {
 
 .logo {
     display:flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -115,6 +115,11 @@ body {
     margin: 0 auto; */
     margin-top: 41px;
     margin-bottom: 39px;
+}
+
+.nav-bar {
+    margin: 0;
+    padding: 0;
 }
 /* .nav-bar {
     display:flex;
