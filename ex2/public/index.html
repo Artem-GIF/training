@@ -4,119 +4,91 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel = "stylesheet" href="style.css">
+    <link rel = "stylesheet" href="css/bootstrap.css">
     <title>Intern start portfolio!</title>
   </head>
   <body>
-    <header class="header-bar">
+    <header>
         <div class="container">
             <div class="row">
-
-                <div class="col-lg-5 col-md-5 col-sm-5 col-5">
+                <div class="col-lg-6">
                     <div class= "logo">
                         <img class ="logo__img" src="img/Logo.png" alt="rocket">
                         <div class="logo__text">INTERN </br> START</div> 
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-2 col-sm-1 col-1"></div>
-
-                <div class="col-lg-3 col-md-5 col-sm-6 col-6">
-                    <nav class = "navigation-panel">
-                            <ul class="nav-bar">
-                                <li class="nav-bar__item page_about_one"><a class = "nav-link" href="index.html">ОБО МНЕ</a></li><!--
-                                --><li class="nav-bar__item page_about_two"><a class = "nav-link" href="contact.html">СВЯЗАТЬСЯ</a></li><!--
-                                --><hr class="page_about"/>
-                            </ul>
+                <div class="col-lg-6">
+                    <nav>
+                        <ul class="nav-list">
+                            <li class="nav-list__item"><a class = "nav-link" href="index.html">ОБО МНЕ</a></li>
+                            <li class="nav-list__item"><a class = "nav-link" href="contact.html">СВЯЗАТЬСЯ</a></li>
+                        </ul>
                     </nav>
                 </div>
-
             </div>
-
         </div>
     </header>
 
-    <section>
+    <main>
         <div class="container">
+            <h1>Обо мне</h1>
             <div class="row">
-                <div class="col-lg-1 col-md-0 col-sm-0 col-0"></div>
-                <div class="col-lg-3 col-md-12 col-sm-12 col-12">
-                    <div class="section-header">
-                        <h1 class="section-header__title">Обо мне</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="col-lg-1 col-md-1"></div>
-
-                <div class="col-lg-3 col-md-12 text-center">
-                    <div class="avatar-info-block">   
-                        <div class="avatar-info-block__img"></div>
-                        <div class="avatar-info-block__text avatar-info-block__text_dark">Мухортов Дмитрий</div>
-                        <div class="avatar-info-block__text avatar-info-block__text_light">Frontend разработчик-стажёр</div>
-                        <div class="avatar-info-block__location-info">
-                            <div class="avatar-info-block__location-logo"></div>
-                            <div class="avatar-info-block__text avatar-info-block__text_light avatar-info-block__text_no-margin">Тверь, Россия</div>
+                    <div class="col-lg-4">
+                        <div class ="photo">
+                                <img class ="photo__ava">
+                                <p class ="photo__name">Мухортов Дмитрий</p>
+                                <p class ="photo__position">Фронтенд-стажер</p>
+                                <div class ="photo__location">
+                                        <img src="img/location.png" alt="loco_city" class ="location-img">
+                                        <p class ="location-name">Тверь, Россия</p>
+                                </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-lg-7 col-md-12">
-
-                    <div class="content-block">
-                        <h2 class="content-block__header">Обучение</h2>
-                        <section class="content-block__info">
-                            <p class="content-block__info_big-font">
-                                В 2013 году поступил на бюджет в Тверской Политех на направление «Информатика и Вычислительная техника». 
-                                В 2017 году выпустился с красным дипломом бакалавра и в том же году поступил
-                                в магистратуру в Политех на то же направление. Окончил магистратуру в 2019 с красным дипломом.
+                    <div class="col-lg-8">
+                        <section>
+                            <h2>Обучение</h2>
+                            <p>
+                                    В 2013 году поступил на бюджет в Тверской Политех на направление «Информатика и Вычислительная техника». 
+                                    В 2017 году выпустился с красным дипломом бакалавра и в том же году поступил
+                                    в магистратуру в Политех на то же направление. Окончил магистратуру в 2019 с красным дипломом.    
                             </p>
+                        </section>
+
+                        <section>
+                            <h2>Опыт</h2>
+                                <p>Языки программирования:</p>
+                                <ul>
+                                    <li>C</li>
+                                    <li>C++</li>
+                                    <li>C#</li>
+                                    <li>Java</li>
+                                </ul>
+                                <p>Опыт работы:</p>
+                                <ul>
+                                    <li>Правительство Тверской области - (2017 - 2018)</li>
+                                    <li>«ООО СБ-СОФТ» - (2017 - н.в)</li>
+                                </ul>
                         </section> 
                     </div>
-
-                    <div class="content-block">
-                        <h2 class="content-block__header">Опыт</h2>
-                        <section class="content-block__info">
-                            <p class="content-block__info_big-font">Языки программирования:</p>
-                            <ul class="content-block__info_no-decor">
-                                <li>C</li>
-                                <li>C++</li>
-                                <li>C#</li>
-                                <li>Java</li>
-                            </ul>
-                            <p class="content-block__info_big-font">Опыт работы:</p>
-                            <ul class="content-block__info_no-decor">
-                                <li>Правительство Тверской области - (2017 - 2018)</li>
-                                <li>«ООО СБ-СОФТ» - (2017 - н.в)</li>
-                            </ul>
-                        </section> 
-                    </div>
-                </div>
-
-                <div class="col-lg-1 col-md-1"> </div>
-
             </div>
-        </div>
-    </section>
+        </div>  
+    </main>
 
-    <footer class = "footer-bar">
+    <footer>
         <div class="container">
                 <div class="row">
-                        <div class="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p class="footer-bar__copyrights footer-bar__copyrights_bold">&copy; 2019, ВСЕ ПРАВА ЗАЩИЩЕНЫ</p>
-                        </div>
-        
-                        <div class="col-lg-3 col-md-2 col-sm-1 col-1"></div>
-        
-                        <div class="col-lg-3 col-md-5 col-sm-6 col-6">
-                            <p class="footer-bar__copyrights">Сделано в <a href="#" class="footer-bar__copyrights_highlighted footer-bar__copyrights_bold">INTERN START</a> </p>
-                        </div>
+                    <div class="col-lg-3">
+                        <p class="copyrights">&copy; 2019, ВСЕ ПРАВА ЗАЩИЩЕНЫ</p>
+                    </div>
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-3">
+                        <p class="developer">Сделано в <a href="#" class="developer-link">INTERN START</a> </p>
+                    </div>
                 </div>
-        </div>
+            </div>
     </footer>
   </body>
 </html>
