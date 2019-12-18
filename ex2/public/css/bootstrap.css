@@ -153,13 +153,13 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #293883;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #293883;
   text-decoration: underline;
 }
 
@@ -227,7 +227,7 @@ label {
 }
 
 button {
-  border-radius: 0;
+  /* border-radius: 0; */
 }
 
 button:focus {
@@ -240,10 +240,10 @@ button,
 select,
 optgroup,
 textarea {
-  margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+  /* margin: 0; */
+  /* font-family: inherit; */
+  /* font-size: inherit; */
+  /* line-height: inherit; */
 }
 
 button,
@@ -579,8 +579,8 @@ pre code {
 
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
 }
