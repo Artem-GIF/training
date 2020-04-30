@@ -1,7 +1,20 @@
+body {
+  padding-left: 300px;
+  background-color: grey;
+}
 .round {
-  width: 100px; 
-  height: 100px;
+  width: 200px; 
+  height: 200px;
   background: red;
+  border: 30px solid white;
   border-radius: 50%;
+  position: relative;
   }
- 
+  .rectangle {
+    width: 140px;
+    height: 40px;
+    background: white;
+    position: relative;
+    top: 80px;
+    left: 30px;
+  }
